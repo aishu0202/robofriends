@@ -1,0 +1,37 @@
+.Card {
+background-color: #9eebcf;
+border-radius: .5rem;
+display: inline-block;
+padding:1rem;
+margin:.5rem;
+border-width:.25rem;
+box-shadow:4px 4px 8px 0 rgba(0,0,0,.2);
+}
+
+.Card {
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.Card:hover,
+.Card:focus {
+  transform: scale(1.05);
+}
+
+.Search {
+padding:1rem;
+background-color: #9eebcf;
+}
+
+.App {
+	text-align: center;
+}
+
+.h1 {
+	font-family: SAGA LOGO FONT;
+	font-weight: 200;
+	color: #0ccac4;
+	text-decoration-color: black;
+}
